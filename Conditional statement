@@ -1,0 +1,34 @@
+#include <iostream>
+    using namespace std;
+    int main()
+    {
+    	//opening braces
+    	int time;
+    	time=12;
+	string Name="Faran Rao\n";
+	string Roll="bsf2205761\n";
+	string ID="faranrao525@gmail.com \n";
+	cout<<Name;
+	//Name will be printed
+	cout<<Roll;
+	//Roll no will be printed
+	cout<<ID;
+	//Id will be printed
+	if(time<14)
+	{
+		cout<<"Good Morning";
+		//print the statement ,if it is true
+	}
+	else if(time>18)
+	{
+		cout<<"Good Afternoon";
+		//print the statement ,if it is true
+	}
+	else
+	{
+		cout<<"Good Night";
+		//print the statement ,if it is true
+	}
+	return 0;
+}
+//closing braces
